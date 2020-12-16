@@ -1,0 +1,4 @@
+# Git's ignore file #
+
+## Ignore nginx config ##
+nginx/

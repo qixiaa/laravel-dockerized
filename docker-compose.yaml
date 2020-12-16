@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  server:
+    image: "nginx:stable-alpine"
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx/nginx.cof:/etc/nginx/nginx.conf:ro
